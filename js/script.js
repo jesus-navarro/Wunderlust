@@ -14,7 +14,13 @@ $(document).ready(function(){
     $('.header-slide').backstretch([
       "slide/bg01.jpg",
       "slide/bg02.jpg",
-      "slide/bg03.jpg"
+      "slide/bg03.jpg",
+			"slide/bg04.jpg",
+			"slide/bg05.jpg",
+			"slide/bg06.jpg",
+			"slide/bg07.jpg",
+			"slide/bg08.jpg",
+			"slide/bg09.jpg",
       ], {
         fade: 850,
         duration: 4000
@@ -37,7 +43,7 @@ $(document).ready(function(){
         cursorcolor: '#434a54',
         cursorwidth: '10px',
         cursorborder: '1px solid #434a54',
-        cursoropacitymax: 0.9,                
+        cursoropacitymax: 0.9,
         scrollspeed: 200,
         zindex: 1060
     });
@@ -138,7 +144,7 @@ $(document).ready(function(){
               center: [-7.866315,110.389574],
               zoom: 12,
               scrollwheel: false
-            }  
+            }
          },
         marker:{
             latLng: [-7.866315,110.389574],
@@ -166,7 +172,7 @@ $(document).ready(function(){
                   center: [-7.866315,110.389574],
                   zoom: 13,
                   scrollwheel: false
-                }  
+                }
              },
             marker:{
                 latLng: [-7.866315,110.389574],
