@@ -1764,10 +1764,11 @@ pre code {
     width: 58.33333333%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 100%;
+
   }
   .col-md-5 {
-    width: 41.66666667%;
+    width: 100%;
   }
   .col-md-4 {
     width: 33.33333333%;
@@ -2417,7 +2418,7 @@ input[type="month"].input-lg {
   line-height: 46px;
 }
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 .radio,
 .checkbox {
@@ -3226,6 +3227,27 @@ tbody.collapse.in {
 .pull-right > .dropdown-menu {
   right: 0;
   left: auto;
+}
+form {
+                width:300px;
+                margin:50px auto;
+}
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
 }
 .dropup .caret,
 .navbar-fixed-bottom .dropdown .caret {
